@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Mini TODO</title>
+    <style>
+        body {
+            font-family: Arial;
+            max-width: 400px;
+            margin: 30px auto;
+        }
+
+        #todo-list li {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+        }
+
+        button {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>TODO App</h2>
+
+
+    <input id="todo-input" placeholder="Add task..." />
+    <button id="add-btn">Add</button>
+
+
+    <ul id="todo-list"></ul>
+
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
